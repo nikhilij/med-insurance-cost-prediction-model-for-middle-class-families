@@ -1,0 +1,10 @@
+2025-03-21 16:35:19,512 - DataProcessor - INFO - Successfully loaded data from insurance.csv
+2025-03-21 16:35:23,486 - DataProcessor - INFO - Exploratory data analysis completed
+2025-03-21 16:35:23,488 - DataProcessor - INFO - Pipeline step 1: Missing Values - handle_missing_values
+2025-03-21 16:35:23,494 - DataProcessor - INFO - Pipeline step 2: Encode Categorical - encode_categorical
+2025-03-21 16:35:23,525 - DataProcessor - INFO - Categorical variables encoded using label encoding
+2025-03-21 16:35:23,527 - DataProcessor - INFO - Pipeline step 3: Handle Outliers - handle_outliers
+2025-03-21 16:35:23,539 - DataProcessor - INFO - Removed 3212 outliers using zscore method with threshold 3.0
+2025-03-21 16:35:23,541 - DataProcessor - INFO - Pipeline step 4: Scale Features - scale_features
+2025-03-21 16:35:23,551 - DataProcessor - INFO - Features scaled using standard scaling
+2025-03-21 16:35:24,084 - DataProcessor - INFO - Processed data saved to processed_data/insurance_processed_20250321_163523.csv
